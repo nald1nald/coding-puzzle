@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Coding Puzzle</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Coding Puzzle</h1>
+
+    <div class="containers">
+        <div class="container1 container">
+            <form action="" id="calorieCalc" style="display: flex; flex-direction: column;">
+                <label for="firstElf" style="margin-top: 10px;">First Elf Total Calories: (Seperate each input with Comma ",")</label>
+                <input type="text" name="firstElf" id="firstElf">
+        
+                <label for="secondElf" style="margin-top: 10px;">Second Elf Total Calories: (Seperate each input with Comma ",")</label>
+                <input type="text" name="secondElf" id="secondElf">
+        
+                <label for="thirdElf" style="margin-top: 10px;">Third Elf Total Calories: (Seperate each input with Comma ",")</label>
+                <input type="text" name="thirdElf" id="thirdElf">
+        
+                <label for="fourthElf" style="margin-top: 10px;">Fourth Elf Total Calories: (Seperate each input with Comma ",")</label>
+                <input type="text" name="fourthElf" id="fourthElf">
+        
+                <label for="fifthElf" style="margin-top: 10px;">fifth Elf Total Calories: (Seperate each input with Comma ",")</label>
+                <input type="text" name="fifthElf" id="fifthElf">
+        
+                <button type="button" id="calorieBtn" style="margin-top: 10px;">Calculate</button>
+            </form>
+        </div>
+    
+        <div class="container2 container" style="margin-top: 50px;">
+            <ul>
+                <h2>Total Calories Each Elf is carrying</h2>
+                <li><h3>First Elf</h3> <span id="firstElfResult"></span></li>
+                <li><h3>Second Elf</h3> <span id="secondElfResult"></span></li>
+                <li><h3>Third Elf</h3> <span id="thirdElfResult"></span></li>
+                <li><h3>Fourth Elf</h3> <span id="fourthElfResult"></span></li>
+                <li><h3>Fifth Elf</h3> <span id="fifthElfResult"></span></li>
+            </ul>
+        
+            <p><h1>Elf carrying the most Calories</h1></p>
+            <p><span id="highestCalElf"></span></p>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
